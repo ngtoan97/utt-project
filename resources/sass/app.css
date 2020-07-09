@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #ebedee;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav-link {
+  border-top: 4px solid white;
+  transition: border-top 0.3s;
+}
+.nav-link:hover {
+  border-top: 4px solid white;
+  background-color: #feb47b;
+  color: white;
+}
+
+.active-menu {
+  background-color: #ffae42;
+  color: white;
+}
+
+.menu-teacher {
+  background-color: white;
+}
+
+.home-dashboard {
+  margin: 0px 40px;
+}
+
+.card-header {
+  background: white;
+  border-bottom: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.tr-table {
+  background-color: white !important;
+}
+.tr-table:hover {
+  background-color: #feb47b !important;
+}
+
+.table th, .table td {
+  padding: 10px !important;
+}
+
+.results tr[visible=false],
+.no-result {
+  display: none;
+}
+
+.results tr[visible=true] {
+  display: table-row;
+}
+
+.counter {
+  padding: 8px;
+  color: #ccc;
+}
+
+/*# sourceMappingURL=app.css.map */
